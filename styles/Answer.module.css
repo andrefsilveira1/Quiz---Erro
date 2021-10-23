@@ -1,0 +1,63 @@
+.resp{
+    display: flex;
+    height: 100px;
+    width: 80%;
+    min-width: 500px;
+    margin: 10px;
+    color: #fff;
+}
+.front, .back{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.back > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-radius: 12px;
+}
+.CorrecBack{
+    background-color: #2BAA6D;
+}
+.WrongBack{
+    background-color: #E44A4C;
+}
+.CorrecBack .text, .WrongBack .text{
+    font-size: 1.5rem;
+}
+.content{
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+.front{
+    align-items: center;
+    border-radius: 12px;
+    padding: 15px;
+    color: #000;
+    background-color: #fff;
+}
+.letter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-right: 20px;
+    color: #fff;
+}
+.value{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.full{
+    display: flex;
+    flex-direction: column;
+}
